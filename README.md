@@ -18,6 +18,22 @@ git push -u origin master
 # 分支管理
 
 ```
- git branch //查看当前所在分支
+查看所在分支：git branch
+
+创建本地分支：git branch <name>
+
+切换到本地分支：git checkout <name>
+
+关联本地分支到远程分支:git push --set-upstream origin dev
+
+创建+切换本地分支：git checkout -b <name>
+
+check远程分支并切换到该分支：git checkout -b 本地分支名 远程分支名，eg:git checkout -b master origin/master
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
+
+git重命名本地分支：git branch -m old-local-branch-name new-local-branch-name
 
 ```
