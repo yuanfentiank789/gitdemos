@@ -14,3 +14,10 @@ git push -u origin master
 git remote add origin git@github.com:yuanfentiank789/gitdemos.git
 git push -u origin master
 ```
+
+# 分支管理
+
+```
+ git branch //查看当前所在分支
+
+```
