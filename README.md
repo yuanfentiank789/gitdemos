@@ -1,3 +1,4 @@
+# 初始化git仓库
 ## 初始化git仓库并关联到远程仓库
 ```
 echo "# gitdemos" >> README.md
@@ -8,7 +9,7 @@ git remote add origin git@github.com:yuanfentiank789/gitdemos.git
 git push -u origin master
 ```
 
-## 关联本地仓库到github
+## 关联本地仓库到远程github
 ```
 git remote add origin git@github.com:yuanfentiank789/gitdemos.git
 git push -u origin master
