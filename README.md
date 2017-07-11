@@ -58,3 +58,13 @@ step1,先从本地删除：git tag -d v0.9；
 step2.删除远程tag：git push origin :refs/tags/v0.9
 
 ```
+
+# 版本回退
+
+> 每提交一个新版本，实际上Git就会把它们自动串成一条时间线.现在我们启动时光穿梭机,在历史版本间穿梭。
+
+```
+查看提交记录：git log
+简化git log输出：git log --pretty=oneline
+
+```
